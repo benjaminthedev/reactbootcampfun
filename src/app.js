@@ -3,12 +3,14 @@ import logo from './logo.svg';
 import './App.css';
 import NewCounter from './components/NewCounter';
 import VisToggle from './components/VisToggle';
+import Indecision from './components/Indecision';
 
 function App() {
   return (
     <div className="App">
     <NewCounter />
     <VisToggle />
+    <Indecision />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
